@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"errors"
 	"io/ioutil"
-	"utils/codec"
+	"github.com/JeepLin/utils/codec"
 )
 
 //ParseAndUnmarshal 解析并序列化请求
