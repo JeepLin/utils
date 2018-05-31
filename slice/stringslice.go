@@ -1,10 +1,10 @@
-package string
+package slice
 
 import "strings"
 
 type StringSlice []string
 
-func New(s []string) StringSlice {
+func NewStringSlice(s []string) StringSlice {
 	return StringSlice(s)
 }
 
